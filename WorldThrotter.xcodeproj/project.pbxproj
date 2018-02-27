@@ -15,6 +15,7 @@
 		ED70BB13203AA6E5004D5AE8 /* WorldThrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BB12203AA6E5004D5AE8 /* WorldThrotterTests.swift */; };
 		ED70BB1E203AA6E5004D5AE8 /* WorldThrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BB1D203AA6E5004D5AE8 /* WorldThrotterUITests.swift */; };
 		ED70BB2E203E7F1D004D5AE8 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BB2D203E7F1D004D5AE8 /* ConversionViewController.swift */; };
+		ED70BB3120410A0A004D5AE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED70BB3020410A0A004D5AE8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ED70BB1D203AA6E5004D5AE8 /* WorldThrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldThrotterUITests.swift; sourceTree = "<group>"; };
 		ED70BB1F203AA6E5004D5AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED70BB2D203E7F1D004D5AE8 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		ED70BB3020410A0A004D5AE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED70BB3120410A0A004D5AE8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				ED70BB11203AA6E5004D5AE8 /* WorldThrotterTests */,
 				ED70BB1C203AA6E5004D5AE8 /* WorldThrotterUITests */,
 				ED70BAFB203AA6E5004D5AE8 /* Products */,
+				ED70BB2F20410A0A004D5AE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				ED70BB1F203AA6E5004D5AE8 /* Info.plist */,
 			);
 			path = WorldThrotterUITests;
+			sourceTree = "<group>";
+		};
+		ED70BB2F20410A0A004D5AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED70BB3020410A0A004D5AE8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
